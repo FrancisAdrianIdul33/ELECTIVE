@@ -1,0 +1,65 @@
+h5 {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.all-pro {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.blue-container {
+    background: linear-gradient(to bottom, #6495ED, #3F00FF);
+    width: 280px;
+    height: 580px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 5rem;
+    align-content: center;
+    justify-content: center;
+    
+}
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
+.hobbies {
+    background-color: rgba(188, 216, 255, 0.304);
+    border-radius: 10px;
+    padding: 2px;
+    margin: 2px 0;
+    width: 7rem;
+    display:inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.description {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 1rem;
+    font-size: small;
+    max-height: 200rem;
+    width: 260px;
+    max-height: fit-content;
+    overflow-y: auto;
+}

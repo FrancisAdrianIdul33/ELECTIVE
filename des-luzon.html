@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Libraries Link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Additional Libraries Link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <title>PROJECT ELECTIVE</title>
+
+    <!-- Css and Javacript Link-->
+
+    <Link rel="stylesheet" href="./des-style.css">
+    <script src="userdata.js"></script>
+
+    <style>
+        body {
+            background-image: url('./images/background.jpg');
+            background-size: cover;
+            background-repeat: repeat-y;
+            background-position: center;
+            height: 230vh;
+            margin: 0;
+        }
+
+        .background {
+            margin: auto;
+            background-image: url('./images/luzon-back.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            width: 1300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-bottom: 2rem;
+            padding-top: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <nav class="navbar navbar-expand-lg" style="background: linear-gradient(to right, #6495ED, #3F00FF);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./images/logo.svg" alt="Logo" width="20%" height="20%"
+                        class="d-inline-block align-text-top">
+                    <strong style="font-weight: 600; position: relative; top: 3px; left: 5px;">Advensure</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style="position: relative; right: 30px;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Destination
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./des-luzon.html">Luzon</a></li>
+                                <li><a class="dropdown-item" href="./des-visayas.html">Visayas</a></li>
+                                <li><a class="dropdown-item" href="./des-mindanao.html">Mindanao</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blogs.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bottom" onclick="scrollToBottom()">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <body>
+
+            <!--Destination-->
+            <div class="background">
+                <h1 class="fw-bolder">LUZON</h1>
+                <h4 class="des-con-p">Luzon, the largest and most
+                    populous island in the Philippines, is a captivating blend of vibrant cities,
+                    breathtaking
+                    natural landscapes, and rich cultural heritage. From the bustling metropolis of Manila
+                    to
+                    the serene rice terraces of Banaue, Luzon offers a diverse range of experiences. Explore
+                    the
+                    majestic Mayon Volcano, hike through the lush forests of Mount Pulag, or immerse
+                    yourself in
+                    the vibrant traditions of the Ifugao people. Whether you seek adventure, relaxation, or
+                    cultural immersion, Luzon promises an unforgettable journey.</h4>
+            </div>
+            <h2>Places to Explore</h2>
+
+            <div class="con-all">
+                <div class="container" style="margin-bottom: 2rem;">
+                    <div class="image-con">
+                        <img src="./images/luzon.jpg" alt="Place 1" style="width: 350px; height: 200px;">
+                    </div>
+                    <div class="content">
+                        <h5 class="fw-semibold">Mayon Volcano</h5>
+                        <div class="location"><img
+                                src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/geo-alt-fill.svg">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Albay</span>
+                        </div>
+                        <p>is a majestic stratovolcano known for its near-perfect conical shape. It's one of the most
+                            active volcanoes in the country, with frequent eruptions that have both captivated and
+                            threatened nearby communities. Its beauty and power make it a popular tourist destination,
+                            but also a constant reminder of the forces of nature.</p>
+                    </div>
+                </div>
+
+                <div class="container" style="margin-bottom: 2rem;">
+                    <div class="image-con">
+                        <img src="./images/des-batad.jpg" alt="Place 1" style="width: 350px; height: 200px;">
+                    </div>
+                    <div class="content">
+                        <h5 class="fw-semibold">Batad Rice Terraces</h5>
+                        <div class="location"><img
+                                src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/geo-alt-fill.svg">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Banaue, Ifugao</span>
+                        </div>
+                        <p>Situated in the Cordillera region of the Philippines, the Batad Rice Terraces exemplify
+                            sustainable agriculture practices. These centuries-old terraces, meticulously maintained by
+                            local communities, demonstrate a harmonious relationship between humans and the environment.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="container" style="margin-bottom: 2rem;">
+                    <div class="image-con">
+                        <img src="./images/des-cave.jpg" alt="Place 1" style="width: 350px; height: 200px;">
+                    </div>
+                    <div class="content">
+                        <h5 class="fw-semibold">Sumaguing Cave</h5>
+                        <div class="location"><img
+                                src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/geo-alt-fill.svg">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>South Rd, Sagada, 2619 Mountain Province</span>
+                        </div>
+                        <p>The cave network is vast and intricate, offering a thrilling challenge for experienced
+                            spelunkers. Steep descents and ancient stalagmites add to the adventure, revealing the
+                            cave's
+                            age and geological wonders. Its popularity among spelunkers speaks to its accessibility and
+                            the
+                            captivating experience it offers.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <!--Footer-->
+
+            <footer>
+                <div class="footer-column1">
+                    <img src="./images/logo.svg" alt="Logo" width="30%" height="30%">
+                    <p>Contact us:</p>
+                    <p><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/envelope-fill.svg"
+                            style="margin-right: 0.5rem;" alt="Email Icon"> Email: Advensure@gmail.com</p>
+                    <p><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/telephone-fill.svg"
+                            style="margin-right: 0.5rem;" alt="Phone Icon"> Phone: +09360134321</p>
+
+                </div>
+                <div class="footer-column2">
+                    <a href="#">Destination</a> |
+                    <a href="./blogs.html">Blogs</a> |
+                    <a href="./about.html">About Us</a> |
+                    <a href="#">Contacts</a>
+                </div>
+                <div class="footer-column3">
+                    <h3>Follow Us</h3>
+                    <div class="social-media">
+                        <a href="#"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/facebook.svg"
+                                style="margin-right: 0.5rem;" alt="Facebook Icon">Facebook</a>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/twitter.svg"
+                                style="margin-right: 0.5rem;" alt="Twitter Icon">Twitter</a>
+                        <a href="#"><img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/instagram.svg"
+                                style="margin-right: 0.5rem;" alt="Instagram Icon">Instagram</a>
+
+                    </div>
+                </div>
+            </footer>
+            <div class="copyright">
+                <p>&copy; 2024 Advensure. All rights reserved.</p>
+            </div>
+
+        </body>
+
+</html>

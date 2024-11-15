@@ -1,0 +1,422 @@
+ /* Heading */
+
+ h1 {
+   font-size: 50px;
+   text-align: center;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+   color: rgb(0, 33, 104);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ 
+
+ /* Carousel Style / Image Slideshow Crossfade Automatic */
+
+ .overlay {
+  position: absolute;
+  margin-top: 25rem;
+  margin-left: 2rem;
+  top: 2px;
+  left: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 700px;
+  max-height: 200px;
+  
+}
+
+.overlay h4 {
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+ #carouselExampleFade {
+   width: 100%;
+   height: 600px;
+   overflow: hidden;
+   position: relative;
+ }
+
+ .carousel-item img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+ .carousel-item {
+   position: relative;
+ }
+
+ /*Placeholders for Destination*/
+
+ .card {
+   margin: 15px;
+   transition: transform 0.2s;
+   background: linear-gradient(to bottom, #2971f8, #ffffff);
+   overflow: hidden;
+   /* Changed: Added overflow hidden to crop the image */
+ }
+
+ .card h3 {
+   margin-left: 120px;
+   position: relative;
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px 0 black;
+ }
+
+ .card:hover {
+   transform: scale(1.05);
+ }
+
+ .card-img-top {
+   width: 100%;
+   /* Changed: Set width to 100% to fill the card */
+   height: 150px;
+   /* Changed: Set a default height for the image */
+   object-fit: cover;
+   /* Changed: Ensures the image covers the area and is cropped */
+ }
+
+ .des-con {
+   margin-top: 50px;
+   margin-left: 30px;
+   margin-right: 30px;
+
+ }
+
+ .des-con a {
+   margin-left: 120px;
+
+ }
+
+ /*Placeholder for Blogs*/
+
+ .scrolling-con1 {
+   overflow-y: scroll;
+   width: 100%;
+   font-size: small;
+ }
+
+ .blog-des-con {
+  border: 1px solid #ccc;
+   display: flex;
+   justify-content: normal;
+   margin: 20px;
+   margin-right: 0.5rem;
+   width: max-content;
+   /* Ensures the container takes full width */
+   
+   /* Fixed height for the container */
+   overflow-y: auto;
+   overflow: hidden;
+   /* Prevents overflow */
+   flex-shrink: 0;
+   /* Prevents scaling */
+ }
+
+ .blog-card {
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   overflow: hidden;
+   width: 361px;
+   /* Fixed width */
+   height: 450px;
+   /* Fixed height */
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   margin-right: 0.5rem;
+   margin-left: 0.5rem;
+   flex-shrink: 0;
+   /* Prevents scaling */
+ }
+
+ .img-size {
+   width: 100%;
+   height: 150px;
+   /* Fixed height */
+   overflow: hidden;
+ }
+
+ .card-img-top {
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: cover;
+ }
+
+ .card-body {
+   position: relative;
+   padding: 10px;
+ }
+
+ .card-body a {
+   position: relative;
+ }
+
+ .fw-bold {
+   font-weight: bold;
+   word-wrap: break-word;
+   /* Ensures the title wraps correctly */
+   overflow-wrap: break-word;
+   /* Additional support for wrapping */
+   max-width: 80%;
+   /* Prevents overflow */
+   margin-left: 10px;
+ }
+
+ p {
+   padding: 0px;
+   margin-left: 10px;
+ }
+
+ .btn {
+   margin-left: 1rem;
+ }
+
+ /*User feedback*/
+
+ .feedback-carousel {
+   margin-left: 1rem;
+   margin-top: 2rem;
+ }
+
+ .feedback-placeholder {
+   height: 300px;
+   display: inline-block;
+   /* Changed to inline-block */
+   background-color: #6495ED;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   margin-bottom: 3rem;
+   width: 520px;
+   /* Set width to match user-feedback */
+   margin: 0;
+   /* Removed margin */
+   padding: 1rem;
+   /* Removed padding */
+ }
+
+ .user-feedback {
+   height: 200px;
+   width: 488px;
+   background-color: rgb(240, 253, 255);
+   border: 1px solid #ccc;
+   overflow-y: auto;
+   border-radius: 5px;
+   margin-top: 1rem;
+   position: relative;
+   /* Added for arrow positioning */
+   margin-bottom: 3rem;
+ }
+
+ .user-feedback p {
+  word-wrap: break-word;
+
+ }
+
+ .arrow {
+   background-color: transparent;
+   border: none;
+   font-size: 2em;
+   cursor: pointer;
+   position: relative;
+   margin-top: 10rem;
+   display: relative;
+ }
+
+ .left-arrow {
+   left: 0px;
+   /* Adjusted for positioning */
+   margin-right: 0.5rem;
+   bottom: 10rem;
+ }
+
+ .right-arrow {
+   right: 0px;
+   /* Adjusted for positioning */
+   margin-left: 0.5rem;
+   bottom: 10rem;
+ }
+
+ .feedback-text {
+
+   margin: 1rem;
+   overflow-y: auto;
+   word-wrap: break-word;
+
+ }
+
+ .user-profile {
+   display: flex;
+   align-items: center;
+ }
+
+ .profile-pic {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+ }
+
+ .user-info {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .username {
+   font-weight: bold;
+ }
+
+ .upload-date {
+   font-size: 0.9em;
+   color: #ffffff;
+ }
+
+ /*Join Us*/
+
+ .join-us-container {
+  height: 300px;
+  width: 530px;
+  background-image: url('./images/join.jpg');
+  background-size: cover;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.join-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  display: block;
+  width: 10rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.join-button:hover {
+  transform: scale(1.1); /* Zoom in effect */
+}
+
+ /*About Us*/
+
+ .about-us-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.group-image {
+  margin-left: 10rem;
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.group-image img {
+  width: 200px;
+  height: 210px;
+}
+
+.group-description {
+  text-align: left;
+  flex: 1;
+}
+
+.group-description h2 {
+  font-weight: 500;
+  left: 2rem;
+}
+
+.group-description p {
+  word-wrap: break-word;
+  width: 75%;
+  margin-bottom: 2rem;
+}
+
+.learn-more-button {
+  border: 0.3px solid blue;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: blue;
+  border-radius: 5px;
+  margin-left: 16rem;
+}
+
+
+ /*footer*/
+
+ body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+ }
+
+ footer {
+   background: linear-gradient(to bottom, #6495ED, #3F00FF);
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+ }
+
+ .footer-column1 {
+   flex: 1;
+   margin: 0 10px;
+ }
+
+ .footer-column1 p {
+  color: white;
+  text-decoration: none;
+}
+
+ .footer-column3 a {
+  color: white;
+  text-decoration: none;
+}
+
+ .footer-column2 {
+  flex: 1;
+  margin: 0 10px;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.footer-column2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column3 {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-column3 a {
+  color: white;
+  text-decoration: none;
+}
+
+ .social-media {
+   display: flex;
+   gap: 10px;
+ }
+
+ .copyright {
+   background-color: #3000bf;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   
+ }
